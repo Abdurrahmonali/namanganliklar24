@@ -1,8 +1,21 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+* {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
 /* HEADER */
-
+.header-container{
+    width: 100%;
+    max-width: 1440px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .rectangle22 {
 width: 1440px;
 height: 105px;
@@ -129,7 +142,6 @@ display: flex;
 justify-content: space-between;
 margin: 0%;
 padding: 0%;
-
 }
 .link {
   color: #7F7F7F;
@@ -138,5 +150,106 @@ padding: 0%;
   line-height: 21.33px;
   text-align: center;
   text-decoration: none;
+}
 
+/* footer */
+.footer-container {
+  width: 100%;
+  max-width: 1440px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer {
+  background-color: #7297EF;
+  color: #fff;
+  width: 1440px;
+  height: 356px;
+}
+.footer-div {
+  width: 1440px;
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+}
+.logo-div-footer {
+  background-color: #7296EC;
+}
+.footer-logo {
+  background-color: #7296EC;
+  color: #FFFFFF;
+  margin: 0%;
+  margin-top: 40px;
+}
+.footer-logo-text {
+  width: 229px;
+  height: 95px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+.ul-div {
+  display: flex;
+  padding-left: 150px;
+}
+.div-logo-ul {
+  display: flex;
+}
+.ul-footer-link {
+  width: 167px;
+  height: 136px;
+  list-style: none;
+  margin: 0%;
+  margin-top: 83px;
+  padding: 0%;
+}
+.ul-footer-link-two {
+  width: 250px;
+  height: 120px;
+  padding-left: 100px;
+  box-sizing: content-box;
+}
+.foter-link {
+  color: #fff;
+  text-decoration: none;
+margin-bottom: 20px;
+}
+.foter-link:last-child {
+
+}
+.hr-footer {
+  width: 998px;
+  height: 1px;
+  color: #CECECE;
+  margin: 0%;
+  margin-top: 20px;
+}
+.div-sotsial {
+  width: 998px;
+  display: flex;
+  justify-content: space-between;
+}
+.theme-social {
+  width: 161px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 0%;
+  margin-top: 20px;
+}
+.ul-sotsial-icon {
+  display: flex;
+  list-style: none;
+  margin-right: 0%;
+  margin-bottom: 0%;
+}
+.sotsial-link {
+  width: 25px;
+  height: 25px;
+margin-right: 30px;
+}
+.youtube {
+  margin-right: 0%;
 }
