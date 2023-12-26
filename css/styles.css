@@ -1,12 +1,14 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+
 * {
   display: block;
 }
 * {
   box-sizing: border-box;
 }
+
 /* HEADER */
 .header-container{
     width: 100%;
@@ -21,13 +23,14 @@ width: 1440px;
 height: 105px;
 background-color: #F6F6F6;
 display: flex;
+justify-content: flex-start;
 align-items: center;
 }
 .group34 {
 width: 1200px;
 height: 45px;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 text-align: center;
 }
@@ -47,7 +50,6 @@ height: 45px;
  line-height: 28.44px;
 }
 .frame45 {
-  width: 158px;
   height: 19px;
   display: flex;
   list-style: none;
@@ -55,7 +57,8 @@ height: 45px;
   font-weight: 700;
   font-size: 16px;
   line-height: 18.96px;
-  flex-grow: 1;
+  margin-right: 260px;
+
 }
 .rubl {
   margin-left: 16px;
@@ -130,9 +133,9 @@ color: #A6A6A6;
 .menyu {
 width: 1200px;
 height: 41px;
-border: 1px solid;
-border: 1px solid #D1D1D1;
+border-bottom: 1px solid #D1D1D1;
 margin-top: 40px;
+margin-bottom: 50px;
 }
 .navigation {
   width: 1200px;
@@ -215,9 +218,6 @@ padding: 0%;
   text-decoration: none;
 margin-bottom: 20px;
 }
-.foter-link:last-child {
-
-}
 .hr-footer {
   width: 998px;
   height: 1px;
@@ -252,4 +252,80 @@ margin-right: 30px;
 }
 .youtube {
   margin-right: 0%;
+}
+
+/* hero */
+main {
+  padding-left: 50px;
+}
+.optimize1 {
+  width: 1200px;
+  height: 128px;
+  border-radius: 8px;
+  margin: 0%;
+  margin-bottom: 50px;
+}
+.kards {
+  display: flex;
+  flex-wrap: wrap;
+margin: 0%;
+margin-bottom: 70px;
+}
+.kard {
+  background-color: #F6F6F6;
+  width: 393px;
+  height: 382px;
+  border-radius: 15px;
+  padding: 17px 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.kard-img {
+  width: 359px;
+  height: 165px;
+  border-radius: 10px;
+}
+.div-kard-script {
+  width: 150px;
+  height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div-kard1-script {
+  width: 230px;
+  height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.kard-icon-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.div-kard-script p {
+  height: 20px;
+}
+.group33 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1050px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: #eba501;
+  margin-right: auto;
+  margin-left: auto;
+}
+.button {
+width: 149px;
+height: 50px;
+background-color: #F78B3B;
+color: #FFFFFF;
+border:  #F78B3B;
+border-radius: 10px;
+padding: 13px 30px;
 }
