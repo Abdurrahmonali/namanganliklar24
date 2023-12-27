@@ -1,12 +1,22 @@
 body {
+display: block;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: "Rubik", sans-serif;
 }
-
-* {
-  display: block;
+/* Sticky footer tuzish */
+/* html heidht 100% */
+/* body heidht 100% */
+/* main flex-drow 1 */
+html {
+  height: 100%;
 }
 * {
   box-sizing: border-box;
+}
+* :focus {
+  outline: 2px dashed #68a3fc;
 }
 
 /* HEADER */
@@ -38,16 +48,16 @@ text-align: center;
 background-color: #fff;
 width: 276px;
 height: 45px;
+text-align: center;
+line-height: 45px;
 }
 .namanganliklar24 {
   color: #7296EE;
   text-decoration: none;
-  width: 264px;
-  height: 28px;
   text-transform: uppercase;
- font-weight: 700;
- font-size: 24px;
- line-height: 28.44px;
+font-weight: 700;
+font-size: 24px;
+line-height: 28.44px;
 }
 .frame45 {
   height: 19px;
@@ -63,37 +73,37 @@ height: 45px;
 .rubl {
   margin-left: 16px;
 }
+.find-form {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 .find {
   background-color: #fff;
   width: 275px;
   height: 45px;
+  border: 0px;
   border-radius: 60px;
   display: flex;
   align-items: center;
-  left: 836px;
-  top: 30px;
   margin-right: 20px;
-  }
-  .search-text {
-    color: #8D8D8D;
-    width: 42px;
-    height: 17px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16.59px;
-    margin-left: 10px;
   }
   .uz-ru-div {
     background-color: #DCE6FF;
     width: 70px;
     height: 36px;
+    line-height: 15px;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   .uz-div {
     background-color: #FFFFFF;
     width: 30px;
     height: 30px;
     border-radius: 50px;
+    margin: 0%;
+
   }
   .uz {
     color: #000000;
@@ -103,15 +113,18 @@ height: 45px;
 width: 16px;
 height: 15px;
 
+margin-left: 8px;
+text-align: center;
+margin-top: 8px;
   }
   .ru {
 width: 16px;
 height: 15px;
 color: #A6A6A6;
-;
     font-weight: 400;
     font-size: 13px;
     line-height: 15.41px;
+
   }
 .exit {
   background-color: #7296EC;
@@ -156,6 +169,9 @@ padding: 0%;
 }
 
 /* footer */
+.main-content {
+  flex-grow: 1;
+}
 .footer-container {
   width: 100%;
   max-width: 1440px;
@@ -280,6 +296,18 @@ margin-bottom: 70px;
   margin-right: 10px;
   margin-top: 10px;
 }
+.kard h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.kard p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4A4B4C;
+}
 .kard-img {
   width: 359px;
   height: 165px;
@@ -296,7 +324,7 @@ align-items: center;
   width: 230px;
   height: 20px;
 display: flex;
-justify-content: center;
+justify-content: start;
 align-items: center;
 }
 
@@ -305,6 +333,13 @@ align-items: center;
   height: 20px;
   border-radius: 5px;
   margin-right: 10px;
+}
+.kard-icon-p {
+font-weight: 400;
+font-size: 12px;
+line-height: 14.22px;
+color: #5E5F61;
+
 }
 .div-kard-script p {
   height: 20px;
@@ -317,9 +352,9 @@ align-items: center;
   height: 100px;
   border-radius: 15px;
   background-color: #eba501;
-  margin-right: auto;
-  margin-left: auto;
+margin-left: 70px;
 }
+
 .button {
 width: 149px;
 height: 50px;
@@ -328,4 +363,86 @@ color: #FFFFFF;
 border:  #F78B3B;
 border-radius: 10px;
 padding: 13px 30px;
+}
+.div-vmir {
+  display: flex;
+}
+.div-vmir1 {
+  display: flex;
+  background-color: #F6F6F6;
+width: 797px;
+height: 205px;
+margin-bottom: 10px;
+margin-right: 10px;
+}
+.vmir-icon-div {
+  margin-top: 16px;
+}
+.vmir-img {
+  width: 210px;
+  height: 165px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  }
+.vmir-text h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.vmir-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4A4B4C;
+  margin: 0%;
+}
+.div-glavnoe {
+  width: 393px;
+  height: 502px;
+  border-radius: 15px;
+  background-color: #F6F6F6;
+}
+.div-glavnoe h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: #000000;
+  margin: 0%;
+padding-left: 15px;
+padding-top: 15px;
+}
+.div-glavnoe h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.div-glavnoe p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.41px;
+  color: #5E5F61;
+}
+.div-glavnoe hr {
+  width: 359px;
+  background-color: #D2D2D2;
+  border: 1px solid #D2D2D2;
+  margin: 0%;
+}
+.glavnoe-child-div {
+  width: 375px;
+  height: 71px;
+  margin: 0%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+.hause-img {
+  width: 393px;
+  height: 338px;
+  padding-top: 20px;
 }
