@@ -86,6 +86,10 @@ line-height: 28.44px;
   align-items: center;
 }
 .find {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-right: 20px;
+  padding-left: 40px;
   background-color: #fff;
   width: 275px;
   height: 45px;
@@ -94,6 +98,10 @@ line-height: 28.44px;
   display: flex;
   align-items: center;
   margin-right: 20px;
+  background-image: url(../img/search.svg);
+background-repeat: no-repeat;
+background-position: 15px center;
+background-size: 20px;
   }
   .uz-ru-div {
     background-color: #DCE6FF;
@@ -644,7 +652,6 @@ align-self: flex-end;
   font-weight: 500;
   font-size: 16px;
   line-height: normal;
-
 }
 .form-labels-wrapper {
 width: 494px;
