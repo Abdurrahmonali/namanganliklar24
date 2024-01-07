@@ -4,7 +4,6 @@ display: block;
   display: flex;
   flex-direction: column;
   font-family: "Rubik", sans-serif;
-  opacity: 0.6px;
   padding: 0%;
   margin: 0%;
 }
@@ -139,16 +138,7 @@ color: #A6A6A6;
     font-weight: 400;
     font-size: 13px;
     line-height: 15.41px;
-
   }
-.exit {
-  background-color: #7296EC;
-  width: 89px;
-  height: 45px;
-  border-radius: 10px;
-  padding: 13px 20px;
-  margin-left: 20px;
-}
 .exit-text {
   color: #fff;
   width: 49px;
@@ -288,9 +278,6 @@ main {
   width: 1200px;
   padding-left: 50px;
   flex-grow: 1;
-}
-.main-content {
-
 }
 .optimize1 {
   width: 1200px;
@@ -447,7 +434,7 @@ padding-top: 15px;
   color: #7296EE;
 }
 .glavnoe-link:active  {
-  opacity: 0.6px;
+  opacity: 0.6;
 }
 
 .div-glavnoe p {
@@ -581,7 +568,7 @@ border: none;
 .contact-form h2 {
   width: 173px;
   height: 28px;
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik" serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -606,7 +593,7 @@ justify-content: space-between;
 margin-bottom: 10px;
 }
 .form-groups-wrapper .div-input {
-  width: calc(50% -5px);
+  width: calc( 50% -5px);
 flex-grow: 1;
 justify-content: space-between;
 width: 50%;
@@ -648,7 +635,7 @@ align-self: flex-end;
   padding: 17px 30px;
   background-color: #7297EF;
   color: #FFFFFF;
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik" serif;
   font-weight: 500;
   font-size: 16px;
   line-height: normal;
@@ -664,16 +651,14 @@ margin-left: 10px;
 }
 .form-wrapper-legand {
 color: #000;
-font-family: "Rubik" sans-serif;
+font-family: "Rubik" serif;
 font-size: 24px;
 font-weight: 500;
 line-height: normal;
 margin-top: 0%;
 }
-.form-labels-wrapper hr {
-  width: 444px;
-  border: 1px solid #D2D2D2;
-  margin: 0%;
+.form-labels-wrapper div:not(:last-child) {
+  border-bottom: 1px solid #D2D2D2;
 }
 .div-label-span {
   padding-left: 25px;
@@ -683,7 +668,7 @@ margin-top: 0%;
 .from-label {
   display: inline-block;
   color: #000;
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik" serif;
   font-weight: 500;
   font-size: 20px;
   line-height: normal;
@@ -695,7 +680,7 @@ margin-top: 40px;
 }
 .from-span {
   color: #000;
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik" serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
