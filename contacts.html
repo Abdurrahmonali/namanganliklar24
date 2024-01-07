@@ -55,27 +55,36 @@
   </header>
   <!-- hero -->
   <main class="main-content">
+      <h2 class="form-wrapper-legand">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" class="contact-form"  method="GET">
       <div class="form-wrapper">
-        <h2 class="form-wrapper-legand">Напишите нам</h2>
-        <input class="input-name" type="text" name="name" placeholder="Имя" required>
-        <input class="input-phone" type="tel" name="phone" placeholder="Номер телефона" required>
-        <input class="input-email" type="email" name="email" placeholder="Электронная почта" required>
-        <textarea class="contact-textarea" name="text" id="" placeholder="Текст" cols="30" rows="10"></textarea>
-        <span class="form-span-button"><button class="form-submit" type="submit">Отправить</button></span>
-      </div>
-      <div class="form-labels-wrapper">
-        <div class="div-label-span">
-          <label class="from-label">Электронная почта</label>
-                <span class="from-span">info@namanganliklar24.uz</span>
-          <hr>
-          <label class="from-label">Номер телефона</label>
-          <span class="from-span">+998 88 522-54-76</span>
-          <hr>
-          <label class="from-label">Адрес</label>
-          <span class="from-span adress">Ташкент, площадь Мустакиллик, 6 </span>
+        <div class="form-groups-wrapper">
+          <div class="div-input">
+            <input class="input-field" type="text" name="name" placeholder="Имя" aria-label="Имя" required>
+          </div>
+          <div class="div-input">
+            <input class="input-field" type="tel" name="phone" placeholder="Номер телефона" aria-label="Номер телефона" required>
+          </div>
         </div>
+        <div class="div-input-email">
+<input class="input-email" type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+        </div>
+
+        <textarea class="contact-textarea" name="text" id="" placeholder="Текст" cols="30" rows="10"></textarea>
+        <div class="form-div-button"><button class="form-submit" type="submit">Отправить</button></div>
       </div>
+
+        <div class="div-label-span form-labels-wrapper">
+          <dt class="from-label">Электронная почта</dt>
+                <dd class="from-span"><a href="mailto:info@namanganliklar24.uz?subject=N24%20saytidan%20xabar">info@namanganliklar24.uz</a></dd>
+          <hr>
+          <dt class="from-label">Номер телефона</dt>
+          <dd class="from-span"><a href="tel:+998885225476">+998 88 522-54-76</a></dd>
+          <hr>
+          <dt class="from-label">Адрес</dt>
+          <dd class="from-span adress">Ташкент, площадь Мустакиллик, 6 </dd>
+        </div>
+
     </form>
   </main>
 
